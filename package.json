@@ -16,9 +16,8 @@
   },
   "lint-staged": {
     "*.{ts,vue,js,jsx}": [
-      "npm run eslint --cache --fix",
       "prettier --write",
-      "git add"
+      "npm run eslint --cache --fix"
     ],
     "*.{css,md,json}": [
       "prettier --write"
